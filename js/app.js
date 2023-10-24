@@ -10,9 +10,9 @@ submitBtn.addEventListener("click", (e) => {
     let splitedLinkArray = classLink.split("/");
     if (
       splitedLinkArray[2] == "vc64.shirazu.ac.ir" ||
-      splitedLinkArray[0] == "vc64.shirazu.ac.ir"
+      splitedLinkArray[0] == "vc64.shirazu.ac.ir" ||  splitedLinkArray[2] == "vc8.shirazu.ac.ir" || splitedLinkArray[0] == "vc64.shirazu.ac.ir"
     ) {
-      if (splitedLinkArray[0] == "vc64.shirazu.ac.ir") {
+      if (splitedLinkArray[0] == "vc64.shirazu.ac.ir" || "vc8.shirazu.ac.ir") {
         recordingLink = splitedLinkArray[1];
       } else {
         recordingLink = splitedLinkArray[3];
