@@ -10,12 +10,16 @@ submitBtn.addEventListener("click", (e) => {
     let splitedLinkArray = classLink.split("/");
     if (
       splitedLinkArray[2] == "vc64.shirazu.ac.ir" ||
-      splitedLinkArray[0] == "vc64.shirazu.ac.ir" ||  splitedLinkArray[2] == "vc8.shirazu.ac.ir" || splitedLinkArray[0] == "vc64.shirazu.ac.ir"
+      splitedLinkArray[0] == "vc64.shirazu.ac.ir" ||  
+      splitedLinkArray[2] == "vc8.shirazu.ac.ir" || 
+      splitedLinkArray[0] == "vc64.shirazu.ac.ir"
     ) {
       if (splitedLinkArray[0] == "vc64.shirazu.ac.ir" || "vc8.shirazu.ac.ir") {
         recordingLink = splitedLinkArray[1];
+        console.log(recordingLink)
       } else {
         recordingLink = splitedLinkArray[3];
+        console.log(recordingLink)
       }
       location.href = `https://offline.shirazu.ac.ir/${semester}/${recordingLink}.zip`;
       classLinkInput.style.border = "1px solid gray";
