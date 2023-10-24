@@ -19,10 +19,8 @@ submitBtn.addEventListener("click", (e) => {
         splitedLinkArray[0] == "vc8.shirazu.ac.ir"
       ) {
         recordingLink = splitedLinkArray[1];
-        console.log(recordingLink);
       } else {
         recordingLink = splitedLinkArray[3];
-        console.log(recordingLink);
       }
       location.href = `https://offline.shirazu.ac.ir/${semester}/${recordingLink}.zip`;
       classLinkInput.style.border = "1px solid gray";
