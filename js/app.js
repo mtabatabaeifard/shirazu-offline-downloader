@@ -12,11 +12,15 @@ submitBtn.addEventListener("click", (e) => {
       splitedLinkArray[2] == "vc64.shirazu.ac.ir" ||
       splitedLinkArray[0] == "vc64.shirazu.ac.ir" ||
       splitedLinkArray[2] == "vc8.shirazu.ac.ir" ||
-      splitedLinkArray[0] == "vc64.shirazu.ac.ir"
+      splitedLinkArray[0] == "vc8.shirazu.ac.ir" ||
+      splitedLinkArray[2] == "vc1.shirazu.ac.ir" ||
+      splitedLinkArray[0] == "vc1.shirazu.ac.ir"
     ) {
       if (
         splitedLinkArray[0] == "vc64.shirazu.ac.ir" ||
-        splitedLinkArray[0] == "vc8.shirazu.ac.ir"
+        splitedLinkArray[0] == "vc8.shirazu.ac.ir" ||
+        splitedLinkArray[0] == "vc1.shirazu.ac.ir"
+        
       ) {
         recordingLink = splitedLinkArray[1];
       } else {
